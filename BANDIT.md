@@ -38,4 +38,78 @@ level 10
 ![image](https://github.com/user-attachments/assets/b3e67511-70f2-4550-b3c4-06750b3803d9)
 Password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 level 11
+password is :  dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+Note: “cat data.txt | base64 -d” the base64 converts binary text representations into string texts. ‘-d’ displays in standard output.
+level 12
+password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+here this command “ tr ‘A-Za-z’ ‘N-ZA-Mn-za-m’” the 13th letter after a is n so there is shift in letters from one to another
+level 13
+password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+Note: mkdir used to create a new directory. cp <source> <destination> used to copy files. mv <source> <destination> moves or renames the files. Hexdumps are basically data that cannot be represented in string format so the data shown in hex values. xxd <input file> <output file> used to create hexdumps. Compression is basically reducing the size of the file without doing any damage to the information present in the file. gzip- command used to compress the file, gzip -d used to decompress the file. gzip file usually ends with .gz. 
+level 14
+password is MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+Notes: -i keys allows only the user with the private key to access the ssh. Local host is the machine that the user is currently working on. 
+level 15
+password is 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Notes: the password that we have to enter right after typing in the username is the one that we got in level 13-14. Since this is a private key we have to get the password for this key and that should be typed after accessing the local host. 
+Local host is a hostname which has the IP address ‘127.0.0.1’. Used to access network services.
+nc or netcat- command that is used to read and write data over a network. Syntax: nc <host> <port>.
+level 16
+password is : kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+Notes: OpenSSL is a library for secure communication over networks. openssl s_client is the command that is used to connect to the server using SSL/TLS.
+SSL: Secure Sockets Layer
+TSL: Transport Layer Security
+To solve this level we are first connecting to the localhost server using openSSL and sending pw to this level. The server returns the password for next level
+level 17
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+Notes: first the the port 31000-32000 is scanned via nmap. 
+
+ 
+Now each port is being opened and checked using the command ncat –ssl localhost <port>
+
+ 
+Here the pw for the level 16 has to be typed and we get a private rsa key which has to be stored in a file called private16.key
+The file permission has to be changed to 700
+ 
+
+Now bandit17 has to be accessed
+ 
+level 18
+password is : x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+Notes:we have to see all the files that are present in the home directory. there is one line which is different in both the files and the different line in the password.new file is the pw for level 18. The diff command can be used, this command gives us the difference between both the files. 
+
+
+
+
+
+
+
+
+
+
+
 
