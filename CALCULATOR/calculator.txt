@@ -1,0 +1,64 @@
+print("welcome to object oriented calculator tool")
+print("enter two numbers")
+
+x=int(input("enter the first number:"))
+y=int(input("enter the second number:"))
+
+def addition():
+  sum=x+y
+  print("addition of two numbers is:",sum)
+def subtraction():
+  if x>y:
+    sub=x-y
+    print("subtraction of two numbers is:",sub)
+  else:
+    sub=y-x
+    print("subtraction of two numbers is:",sub)
+def multiplication():
+  mul=x*y
+  print("multiplication of two numbers is:",mul)
+def division():
+  if x>y:
+    div=x/y
+    print("division of two numbers is:",div)
+  else:
+    div=y/x
+    print("division of two numbers is:",div)
+  if x==0 or y==0:
+    print("zero cannot be one of the number")
+
+def exponent():
+  if x>y:
+    exp=x**y
+    print("exponent of two numbers is:",exp)
+  else:
+    exp=y**x
+    print("exponent of two numbers is:",exp)
+  if x<0 or y<0:
+    print("exponent cannot be a negative number")
+def sqr_root():
+  if x>y:
+    sqr=x**0.5
+    print("square root of two numbers is:",sqr)
+  else:
+    sqr=y**0.5
+    print("square root of two numbers is:",sqr)
+  if x<0 or y<0:
+    print("square root cannot be a negative number")
+
+
+choice=int(input("enter your choice: 1.addition \n 2.subraction \n 3.multiplication \n 4.division \n 5.exponent \n 6.square root \n"))
+if choice==1:
+  addition()
+elif choice==2:
+  subtraction()
+elif choice==3:
+  multiplication()
+elif choice==4:
+  division()
+elif choice==5:
+  exponent()
+elif choice==6:
+  sqr_root()
+else:
+  print("invalid choice")
