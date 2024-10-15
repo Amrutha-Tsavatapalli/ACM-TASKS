@@ -20,7 +20,9 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 int result = lcm(num1,num2);
+    int gcdResult = gcd(num1, num2);
     printf("The smallest multiple (LCM) of %d and %d is: %d\n", num1, num2, result);
+    printf("The smallest multiple (LCM) of %d and %d is: %d\n", num1, num2, lcmResult);
 
     return 0;
 }
